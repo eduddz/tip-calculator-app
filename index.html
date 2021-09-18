@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Tip calculator app</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <img src="./images/logo.svg" alt="logo" />
+  </header>
+
+  <main>
+    <div class="box one">
+      <h2>
+        Bill
+      </h2>
+      <label>
+        <img src="./images/icon-dollar.svg" alt="icon dolar" />
+        <input type="number" placeholder="142.55"/>
+      </label>
+
+        <h2>
+          Select Tip %
+        </h2>
+
+        <div>
+          <button>
+            5%
+          </button>
+          <button>
+            10%
+          </button>
+          <button class="green">
+            15%
+          </button>
+          <button>
+            25%
+          </button>
+          <button>
+            50%
+          </button>
+          <button class="custom">
+            Custom
+          </button>
+        </div>
+        <h2>
+          Number of People
+      </h2>
+      <label>
+        <img src="./images/icon-person.svg" alt="icon pessoa" />
+        <input type="number" placeholder="5">
+      </label>
+    </div>
+
+    <div class="box two">
+      <div class="card">
+        <div class="content">
+          <p>
+            Tip Amount 
+            <br />
+            <span>
+              / person
+            </span>
+          </p>
+          <p class="cash">$4.27</p>
+        </div>
+        
+        <div class="content">
+          <p>
+            Total <br />
+            <span>
+              / person
+            </span>
+          </p>
+          <p class="cash">$32.79</p>
+        </div>
+      </div>
+      
+      <button>
+        Reset
+      </button>
+    </div> 
+  </main>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/eduddz">Eduardo Esteves</a>.
+  </footer>
+</body>
+</html>
